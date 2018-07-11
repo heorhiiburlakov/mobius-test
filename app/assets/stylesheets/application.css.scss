@@ -1,0 +1,13 @@
+/*
+ *= require devise_bootstrap_views
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+header {
+  margin-bottom: 75px;
+}
+
+td tr {
+  align-content: center;
+}

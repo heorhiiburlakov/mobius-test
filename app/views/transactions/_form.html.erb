@@ -1,0 +1,5 @@
+<%= form_for @transaction, url: { controller: 'transactions', action: 'create' } do |f| %>
+  <%= f.text_field :num_credits %>
+  <%= f.hidden_field :to_user_id, value: user.id %>
+  <%= f.submit 'Send' %>
+<% end %>
